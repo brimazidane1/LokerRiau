@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "975489867489",
+    "firebase_url": "https://lokerriau-784fd.firebaseio.com",
+    "project_id": "lokerriau-784fd",
+    "storage_bucket": "lokerriau-784fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975489867489:android:7c9ac219f1606ee1",
+        "android_client_info": {
+          "package_name": "com.jdc.lokerriau"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975489867489-a1pm5uqli1efenmlhgqeombhdqc5dc39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jdc.lokerriau",
+            "certificate_hash": "5609bbb6313d61535c49f6784496f339824d2147"
+          }
+        },
+        {
+          "client_id": "975489867489-1hf7e48b1ic61083s9lafsqdf2u0h17k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd_JCIEzUcUFPftl61ANBvhytPQmhOHlg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975489867489-1hf7e48b1ic61083s9lafsqdf2u0h17k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

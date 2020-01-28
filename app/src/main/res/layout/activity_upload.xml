@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.UploadActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="52dp" />
+
+            <TextView
+                android:id="@+id/headerTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tambahkan Lowongan Disini"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/instansiEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:hint="Nama Instansi"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/namaEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:hint="Nama Lowongan"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/jenisEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:hint="Jenis Lowongan"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/posisiEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:hint="Posisi Lowongan"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/gajiEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:hint="Gaji Lowongan"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/ketEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:hint="Keterangan Lowongan"
+                android:inputType="text"
+                android:minLines="3" />
+
+            <EditText
+                android:id="@+id/bukaEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:hint="Tanggal Buka Lowongan"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/tutupEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:hint="Tanggal Tutup Lowongan"
+                android:inputType="text" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="62dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_choose_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@color/colorPrimary"
+                    android:text="Choose Image"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/chosenImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/uploadBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="Upload"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
